@@ -12,6 +12,13 @@
       getAllPosts();
     }
 
+    function deletePost(postId) {
+      console.log(postId);
+      $http
+        .delete("/api/blogpost" + postId)
+        .success(getAllPosts);
+    }
+
     function getAllPosts() {
       $http
         .get("/api/blogpost")
