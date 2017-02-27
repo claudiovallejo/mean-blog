@@ -51,3 +51,18 @@ function getAllPosts(req, res) {
       }
     )
 }
+//  Delete Blog Post by ID
+app.delete("/api/blogpost/:id", deletePost);
+function deletePost(req, res) {
+  var postId = req.params.id;
+  PostModel
+    .remove({_id: postId})
+    .then(
+      function(status){
+        res.sendStatus(200);
+      },
+      function(){
+        res.sendStatus(400);
+      }
+    );
+}
