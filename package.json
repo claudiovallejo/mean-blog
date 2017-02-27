@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Simple MEAN web application tutorial by Jose Annunziato",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiovallejo/mean-blog.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "MongoDB",
+    "Express",
+    "Angular",
+    "Node"
+  ],
+  "author": "Claudio Vallejo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiovallejo/mean-blog/issues"
+  },
+  "homepage": "https://github.com/claudiovallejo/mean-blog#readme"
+}
